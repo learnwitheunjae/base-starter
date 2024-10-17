@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div className="w-96 mx-auto my-12">
-      <h1 className="text-2xl">Vite + React</h1>
+      <h1 className="text-2xl">Vite + React!!!!!</h1>
       <div>
         <button
           type="button"
