@@ -1,22 +1,22 @@
 import { useState } from 'react';
+import { Plus } from 'lucide-react'
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <div className="w-96 mx-auto my-12">
-      <h1 className="text-2xl">Vite + React!!</h1>
-      <div>
+      <h1 className="text-2xl">GyulStudy Starter</h1>
+      <div className='mt-4'>
         <button
           type="button"
           className="btn"
           onClick={() => setCount((count) => count + 1)}
         >
-          count is {count}
+          <Plus size={14} />
+          <span>Increase</span>
         </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+        <p>Count: {count}</p>
       </div>
     </div>
   );
